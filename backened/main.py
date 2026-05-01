@@ -11,7 +11,7 @@ app = FastAPI(title="Wumpus Logic Agent API")
 # CORS - React frontend se connect karne ke liye
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://wumpus-logic-agent-cxth.vercel.app/"],  # Baad mein Vercel URL daalna
+    allow_origins=["https://wumpus-logic-agent-two.vercel.app/"],  # Baad mein Vercel URL daalna
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
