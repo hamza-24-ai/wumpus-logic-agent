@@ -1,7 +1,7 @@
 import { createContext, useContext, useState } from 'react'
 export const GameContext = createContext()
 
-const API = 'https://wumpus-backened.onrender.com'
+const API = import.meta.env.VITE_API_URL || 'http://localhost:8000'
 
 export function GameProvider({ children }) {
   const [gameState, setGameState] = useState(null)
