@@ -1,7 +1,7 @@
 import Controls from './components/Controls/Controls'
 import Grid from './components/Grid/Grid'
 import Dashboard from './components/Dashboard/Dashboard'
-import PerceptLog from './components/Dashboard/PerceptLog'
+import PerceptLog from './components/Dashboard/Perceptlog'
 import Legend from './components/Legend/Legend'
 import ThemeToggle from './components/ThemeToggle/ThemeToggle'
 import { useGame } from './context/GameContext'
