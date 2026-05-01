@@ -1,0 +1,67 @@
+:root {
+  /* Dark Theme Default */
+  --bg-primary: #0f1117;
+  --bg-secondary: #1a1d2e;
+  --bg-card: #1e2235;
+  --border: #2a3050;
+  --accent: #6366f1;
+  --accent-hover: #4f46e5;
+  --accent-glow: rgba(99, 102, 241, 0.3);
+
+  /* Cell Colors */
+  --cell-unknown: #1e2235;
+  --cell-visited: #1a2a4a;
+  --cell-safe: #064e3b;
+  --cell-safe-border: #10b981;
+  --cell-unsafe: #450a0a;
+  --cell-unsafe-border: #ef4444;
+  --cell-agent: #1e3a5f;
+  --cell-agent-border: #6366f1;
+  --cell-wumpus: #78350f;
+  --cell-wumpus-border: #f59e0b;
+  --cell-pit: #1c1917;
+  --cell-pit-border: #44403c;
+
+  /* Text */
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-dim: #475569;
+
+  /* Status Colors */
+  --safe-color: #10b981;
+  --danger-color: #ef4444;
+  --warning-color: #f59e0b;
+  --info-color: #6366f1;
+}
+
+[data-theme="light"] {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #f1f5f9;
+  --bg-card: #ffffff;
+  --border: #e2e8f0;
+  --accent: #6366f1;
+  --accent-hover: #4f46e5;
+  --accent-glow: rgba(99, 102, 241, 0.15);
+
+  --cell-unknown: #e2e8f0;
+  --cell-visited: #dbeafe;
+  --cell-safe: #d1fae5;
+  --cell-safe-border: #10b981;
+  --cell-unsafe: #fee2e2;
+  --cell-unsafe-border: #ef4444;
+  --cell-agent: #ede9fe;
+  --cell-agent-border: #6366f1;
+  --cell-wumpus: #fef3c7;
+  --cell-wumpus-border: #f59e0b;
+  --cell-pit: #f1f5f9;
+  --cell-pit-border: #94a3b8;
+
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-dim: #94a3b8;
+
+  --safe-color: #059669;
+  --danger-color: #dc2626;
+  --warning-color: #d97706;
+  --info-color: #4f46e5;
+}
