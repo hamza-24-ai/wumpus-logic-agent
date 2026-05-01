@@ -19,7 +19,7 @@ export default function Dashboard() {
       <div className="animate-slide-in rounded-2xl p-3 lg:p-4
                       bg-slate-900 dark:bg-slate-900
                       border-l-4 border-indigo-500
-                      border border-slate-800 dark:border-slate-800">
+                      border  dark:border-slate-800">
         <div className="flex items-start gap-2 lg:gap-3">
           <span className="text-base lg:text-lg mt-0.5 shrink-0">💬</span>
           <div>
@@ -36,7 +36,7 @@ export default function Dashboard() {
       {/* KB Stats Card */}
       <div className="rounded-2xl p-3 lg:p-4 bg-slate-900 dark:bg-slate-900 border border-slate-800 dark:border-slate-800">
         <div className="flex items-center gap-2 mb-3">
-          <div className="w-1 h-4 rounded-full bg-gradient-to-b from-indigo-400 to-cyan-400" />
+          <div className="w-1 h-4 rounded-full bg-linear-to-b from-indigo-400 to-cyan-400" />
           <span className="text-xs font-semibold tracking-widest uppercase text-slate-400">
             Knowledge Base Stats
           </span>
